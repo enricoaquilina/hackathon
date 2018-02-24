@@ -16,7 +16,7 @@ contract Voting {
   */
   function Voting(bytes32[] candidateNames) {
     for(uint i = 0; i < candidateNames.length; i++) {
-      validCandidates[candidateNames[i]] = true;
+      validCandidates[candidateNames[i]] = true
     }
   }
 
