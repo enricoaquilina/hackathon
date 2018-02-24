@@ -29,7 +29,7 @@ web3.eth.getAccounts().then((accounts) => {
     })
         .send((err, hash) => {
             if (err)
-                console.log("Error: " + err);
+                console.log("Error: " + err)
             else
                 console.log("TX Hash: " + hash);
         })
